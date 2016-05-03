@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/4/30 20:49:45。
+     1>项目“D:\VS2013_project\HJSTL\HJSTL\HJSTL\HJSTL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hjstl_test.cpp
+         hjstl_test.cpp
+     1>d:\vs2013_project\hjstl\hjstl\hjstl\hjstl_deque.h(508): warning C4018: “>”: 有符号/无符号不匹配
+                 d:\vs2013_project\hjstl\hjstl\hjstl\hjstl_deque.h(507): 编译类 模板 成员函数“void _HJSTL_deque<int,___hjstl_allocate_<0>::HJSTL_Allocate_default,0>::reserver_map_at_front(_HJSTL_deque<int,___hjstl_allocate_<0>::HJSTL_Allocate_default,0>::size_type)”时
+                 d:\vs2013_project\hjstl\hjstl\hjstl\hjstl_deque.h(556): 参见对正在编译的函数 模板 实例化“void _HJSTL_deque<int,___hjstl_allocate_<0>::HJSTL_Allocate_default,0>::reserver_map_at_front(_HJSTL_deque<int,___hjstl_allocate_<0>::HJSTL_Allocate_default,0>::size_type)”的引用
+                 d:\vs2013_project\hjstl\hjstl\hjstl\hjstl_test.cpp(18): 参见对正在编译的类 模板 实例化“_HJSTL_deque<int,___hjstl_allocate_<0>::HJSTL_Allocate_default,0>”的引用
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2013_project\HJSTL\HJSTL\Debug\HJSTL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2013_project\HJSTL\HJSTL\Debug\HJSTL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2013_project\HJSTL\HJSTL\Debug\HJSTL.lib" /MACHINE:X86 Debug\hjstl_test.obj
+         HJSTL.vcxproj -> D:\VS2013_project\HJSTL\HJSTL\Debug\HJSTL.exe
+     1>已完成生成项目“D:\VS2013_project\HJSTL\HJSTL\HJSTL\HJSTL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.23
